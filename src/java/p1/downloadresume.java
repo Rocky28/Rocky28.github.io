@@ -32,7 +32,7 @@ public class downloadresume extends HttpServlet {
             throws ServletException, IOException 
     {
      try {
-            String filePath = getServletContext().getRealPath("") + File.separator+"Rocky_Sinha_Resume.pdf";
+            String filePath = getServletContext().getRealPath("") + File.separator+"Rocky_Sinha.pdf";
             String str=System.getProperty("user.dir")+filePath;
             System.out.println(filePath);
             File downloadFile = new File(filePath);
